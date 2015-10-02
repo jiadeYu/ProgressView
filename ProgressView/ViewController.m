@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "KACircleProgressView.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    KACircleProgressView *progress = [[KACircleProgressView alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
+    [self.view addSubview:progress];
+    progress.trackColor = [UIColor blackColor];
+    progress.progressColor = [UIColor orangeColor];
+    progress.progress = .7;
+    progress.progressWidth = 10;
+
 }
 
 - (void)didReceiveMemoryWarning {

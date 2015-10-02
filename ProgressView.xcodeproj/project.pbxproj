@@ -14,6 +14,7 @@
 		FC3D790C1BBE3B470027E46A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC3D790B1BBE3B470027E46A /* Images.xcassets */; };
 		FC3D790F1BBE3B470027E46A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC3D790D1BBE3B470027E46A /* LaunchScreen.xib */; };
 		FC3D791B1BBE3B470027E46A /* ProgressViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3D791A1BBE3B470027E46A /* ProgressViewTests.m */; };
+		FC3D79261BBE3B6C0027E46A /* KACircleProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3D79251BBE3B6C0027E46A /* KACircleProgressView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		FC3D79141BBE3B470027E46A /* ProgressViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProgressViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC3D79191BBE3B470027E46A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC3D791A1BBE3B470027E46A /* ProgressViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProgressViewTests.m; sourceTree = "<group>"; };
+		FC3D79241BBE3B6C0027E46A /* KACircleProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KACircleProgressView.h; sourceTree = "<group>"; };
+		FC3D79251BBE3B6C0027E46A /* KACircleProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KACircleProgressView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				FC3D79031BBE3B470027E46A /* AppDelegate.m */,
 				FC3D79051BBE3B470027E46A /* ViewController.h */,
 				FC3D79061BBE3B470027E46A /* ViewController.m */,
+				FC3D79241BBE3B6C0027E46A /* KACircleProgressView.h */,
+				FC3D79251BBE3B6C0027E46A /* KACircleProgressView.m */,
 				FC3D79081BBE3B470027E46A /* Main.storyboard */,
 				FC3D790B1BBE3B470027E46A /* Images.xcassets */,
 				FC3D790D1BBE3B470027E46A /* LaunchScreen.xib */,
@@ -222,6 +227,7 @@
 				FC3D79071BBE3B470027E46A /* ViewController.m in Sources */,
 				FC3D79041BBE3B470027E46A /* AppDelegate.m in Sources */,
 				FC3D79011BBE3B470027E46A /* main.m in Sources */,
+				FC3D79261BBE3B6C0027E46A /* KACircleProgressView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
